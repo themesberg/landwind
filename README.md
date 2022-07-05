@@ -26,13 +26,23 @@ npx tailwindcss -i ./input.css -o ./output.css --watch
 
 Alternatively you can also just directly copy this code into your own projects, whether you use Laravel, React, Vue.js or other frameworks.
 
+## Figma design file
+
+We have also built a free Figma design file that you can duplicate from the community website:
+
+👉 [Landwind Figma file](https://www.figma.com/community/file/1125744163617429490)
+
 ## Built with Tailwind CSS and Flowbite
 
-Get started with a huge collection of over 140+ website sections powered by Tailwind CSS and the Flowbite Library:
+This landing page was built using the following technologies:
 
 - 🔗 [Tailwind CSS](https://tailwindcss.com/)
 - 🔗 [Flowbite Library](https://flowbite.com/docs/getting-started/introduction/)
 - 🔗 [Flowbite Blocks](https://flowbite.com/blocks/)
+
+## About us
+
+We build free and premium themes with technologies such as Bootstrap, React, Tailwind, Vue, Laravel and more over at [Themesberg](https://themesberg.com).
 
 ## License
 
