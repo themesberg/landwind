@@ -2104,6 +2104,10 @@ input:checked + .toggle-bg {
     margin-right: 0.5rem;
   }
 
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
   .sm\:flex {
     display: flex;
   }
