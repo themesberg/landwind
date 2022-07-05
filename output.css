@@ -2390,6 +2390,10 @@ input:checked + .toggle-bg {
     padding-bottom: 6rem;
   }
 
+  .lg\:pt-28 {
+    padding-top: 7rem;
+  }
+
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
