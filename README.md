@@ -1,10 +1,14 @@
-## Landwind - Tailwind CSS Landing Page
+## [Landwind - Tailwind CSS Landing Page](https://demo.themesberg.com/landwind)
 
 Landwind is a free and open-source landing page built for SaaS and product websites based on the Tailwind CSS utility-first framework and the Flowbite Component Library featuring a hero section, customer logos, feature sections, testimonials, pricing cards, FAQ section, pre-footer CTA button and a footer.
 
-- [Live preview](https://demo.themesberg.com/landwind).
-
 <a href="https://demo.themesberg.com/landwind" rel="Tailwind CSS Landing Page">![Tailwind CSS Landing Page Demo - Flowbite](https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/screenshot.png)</a>
+
+## Live preview
+
+Check out a live demo by clicking here:
+
+🔗 [Landwind live preview](https://demo.themesberg.com/landwind)
 
 ## Getting started
 
