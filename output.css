@@ -476,9 +476,7 @@ select {
   background-repeat: no-repeat;
   background-size: 1.5em 1.5em;
   padding-right: 2.5rem;
-  -webkit-print-color-adjust: exact;
-     color-adjust: exact;
-          print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 [multiple] {
@@ -487,9 +485,7 @@ select {
   background-repeat: unset;
   background-size: initial;
   padding-right: 0.75rem;
-  -webkit-print-color-adjust: unset;
-     color-adjust: unset;
-          print-color-adjust: unset;
+  print-color-adjust: unset;
 }
 
 [type='checkbox'],[type='radio'] {
@@ -497,9 +493,7 @@ select {
      -moz-appearance: none;
           appearance: none;
   padding: 0;
-  -webkit-print-color-adjust: exact;
-     color-adjust: exact;
-          print-color-adjust: exact;
+  print-color-adjust: exact;
   display: inline-block;
   vertical-align: middle;
   background-origin: border-box;
@@ -1029,10 +1023,6 @@ input:checked + .toggle-bg {
   grid-column: span 2 / span 2;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1057,6 +1047,14 @@ input:checked + .toggle-bg {
   margin-right: 0.75rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -1075,6 +1073,10 @@ input:checked + .toggle-bg {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mb-8 {
@@ -1101,28 +1103,12 @@ input:checked + .toggle-bg {
   margin-bottom: 1.25rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
 }
 
 .block {
@@ -1161,6 +1147,10 @@ input:checked + .toggle-bg {
   height: 1.5rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .h-9 {
   height: 2.25rem;
 }
@@ -1181,16 +1171,16 @@ input:checked + .toggle-bg {
   height: 3rem;
 }
 
-.h-4 {
-  height: 1rem;
+.w-full {
+  width: 100%;
 }
 
 .w-6 {
   width: 1.5rem;
 }
 
-.w-full {
-  width: 100%;
+.w-4 {
+  width: 1rem;
 }
 
 .w-5 {
@@ -1207,10 +1197,6 @@ input:checked + .toggle-bg {
 
 .w-1\/2 {
   width: 50%;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .max-w-screen-xl {
@@ -1550,11 +1536,6 @@ input:checked + .toggle-bg {
   padding: 0.25rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
@@ -1563,6 +1544,11 @@ input:checked + .toggle-bg {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-3 {
@@ -1603,12 +1589,12 @@ input:checked + .toggle-bg {
   padding-left: 0.75rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-8 {
@@ -1629,14 +1615,6 @@ input:checked + .toggle-bg {
 
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .text-left {
@@ -1893,9 +1871,18 @@ input:checked + .toggle-bg {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(26 86 219 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+}
+
+.focus\:z-10:focus {
+  z-index: 10;
 }
 
 .focus\:outline-none:focus {
@@ -2105,6 +2092,16 @@ input:checked + .toggle-bg {
 .dark .dark\:focus\:ring-purple-900:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(74 29 150 / var(--tw-ring-opacity));
+}
+
+.dark .dark\:focus\:ring-gray-900:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(17 24 39 / var(--tw-ring-opacity));
+}
+
+.dark .dark\:focus\:ring-gray-700:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
 }
 
 @media (min-width: 640px) {
@@ -2352,11 +2349,6 @@ input:checked + .toggle-bg {
     padding: 2.5rem;
   }
 
-  .lg\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -2382,16 +2374,21 @@ input:checked + .toggle-bg {
     padding-bottom: 6rem;
   }
 
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:pt-28 {
+    padding-top: 7rem;
+  }
+
   .lg\:pb-16 {
     padding-bottom: 4rem;
   }
 
   .lg\:pb-24 {
     padding-bottom: 6rem;
-  }
-
-  .lg\:pt-28 {
-    padding-top: 7rem;
   }
 
   .lg\:text-xl {
