@@ -32,7 +32,7 @@ Alternatively you can also just directly copy this code into your own projects, 
 
 We have also built a free Figma design file that you can duplicate from the community website:
 
-👉 [Landwind Figma file](https://www.figma.com/community/file/1125744163617429490)
+👉 [Landwind - Figma Landing Page](https://www.figma.com/community/file/1125744163617429490)
 
 ## Built with Tailwind CSS and Flowbite
 
