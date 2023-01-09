@@ -1,6 +1,3 @@
-# [🔥 Black Friday 2022 - Get Tailwind CSS Templates for 90% Off](https://themesberg.com/black-friday)
-[![Themesberg Black Friday 2022](https://themesberg.com/img/campaigns/black-friday/og-image.png)](https://themesberg.com/black-friday)
-
 ## [Landwind - Tailwind CSS Landing Page](https://demo.themesberg.com/landwind/)
 
 <a href="https://demo.themesberg.com/landwind/" rel="Tailwind CSS Landing Page">![Tailwind CSS Landing Page Demo - Flowbite](https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/thumbnail.png)</a>
