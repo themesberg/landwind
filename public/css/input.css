@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode */
+.active-tab[aria-selected="true"] {
+  @apply text-blue-600 border-blue-100 hover:bg-transparent lg:hover:text-blue-600 lg:p-0;
+}
+
+.active-tab[aria-selected="false"] {
+  @apply text-gray-600 border-gray-100 hover:bg-transparent lg:hover:text-blue-600 lg:p-0;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .active-tab[aria-selected="true"] {
+    @apply text-white border-transparent lg:hover:bg-transparent lg:border-0 lg:hover:text-white !bg-transparent
+  }
+
+  .active-tab[aria-selected="false"] {
+    @apply text-blue-600 border-transparent lg:hover:bg-transparent lg:border-0 lg:hover:text-white;
+  }
+}
