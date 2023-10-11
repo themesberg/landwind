@@ -11,6 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch"
+    "watch": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
+    "build": "node build.js"
   }
 }
