@@ -2,13 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Light Mode */
 .active-tab[aria-selected="true"] {
-  @apply text-blue-600 border-blue-100 hover:bg-transparent lg:hover:text-blue-600 lg:p-0;
+  @apply !text-blue-600 border-blue-100 hover:bg-transparent lg:hover:!text-blue-600 lg:p-0;
 }
 
 .active-tab[aria-selected="false"] {
-  @apply text-gray-600 border-gray-100 hover:bg-transparent lg:hover:text-blue-600 lg:p-0;
+  @apply !text-gray-600 border-gray-100 hover:bg-transparent lg:hover:!text-blue-600 lg:p-0;
 }
 
 /* Dark Mode */
