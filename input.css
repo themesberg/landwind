@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Style for the FAQ accordion */
+.faq-item {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.faq-item-expanded {
+  max-height: 1000px;
+  transition: max-height 0.3s ease-in-out;
+}
